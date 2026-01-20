@@ -1,0 +1,36 @@
+def sumOfNaturalNumber(n):
+  sum = 0
+  for i in range(1, n + 1):
+    sum += i
+  return sum
+
+# Example usage:
+print(sumOfNaturalNumber(10))  
+print(sumOfNaturalNumber(20))
+print(sumOfNaturalNumber(100))
+
+# time complexity O(n)
+# space complexity O(1)
+
+def sumOfNaturalNumber(n):
+  return n * (n + 1) // 2
+print(sumOfNaturalNumber(10))  
+print(sumOfNaturalNumber(20))
+
+# time complexity O(1)
+# space complexity O(1)
+
+#using recursion
+ 
+
+def sumOfNaturalNumber(n):
+    if n == 0:
+      return 0
+    else:
+       return n + sumOfNaturalNumber(n - 1)
+    
+print(sumOfNaturalNumber(10))  
+print(sumOfNaturalNumber(20))  
+
+# time complexity O(n)
+# space complexity O(n) due to recursive call stack

@@ -1,0 +1,5 @@
+def reverseString(str):
+    return str[::-1]
+# Example usage:
+input_str = "Hello, World!"
+print(reverseString(input_str))
